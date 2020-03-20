@@ -15,6 +15,11 @@
 		90ADCFFF242404A800985668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90ADCFFD242404A800985668 /* LaunchScreen.storyboard */; };
 		90ADD00A242404A800985668 /* GifUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADD009242404A800985668 /* GifUpTests.swift */; };
 		90ADD015242404A800985668 /* GifUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADD014242404A800985668 /* GifUpUITests.swift */; };
+		90ADD0232424065700985668 /* NaiveGifConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADD0222424065700985668 /* NaiveGifConverterService.swift */; };
+		90ADD0252424072400985668 /* CMTime++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADD0242424072400985668 /* CMTime++.swift */; };
+		90ADD0272424F5F100985668 /* GifConversionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADD0262424F5F100985668 /* GifConversionError.swift */; };
+		90E411202424F7E500A14EC2 /* CExample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 90E4111F2424F7E500A14EC2 /* CExample.mp4 */; };
+		90E411222424FE4E00A14EC2 /* AssetBulkGifConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E411212424FE4E00A14EC2 /* AssetBulkGifConverterService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		90ADD010242404A800985668 /* GifUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ADD014242404A800985668 /* GifUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifUpUITests.swift; sourceTree = "<group>"; };
 		90ADD016242404A800985668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90ADD0222424065700985668 /* NaiveGifConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaiveGifConverterService.swift; sourceTree = "<group>"; };
+		90ADD0242424072400985668 /* CMTime++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime++.swift"; sourceTree = "<group>"; };
+		90ADD0262424F5F100985668 /* GifConversionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifConversionError.swift; sourceTree = "<group>"; };
+		90E4111F2424F7E500A14EC2 /* CExample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CExample.mp4; sourceTree = "<group>"; };
+		90E411212424FE4E00A14EC2 /* AssetBulkGifConverterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetBulkGifConverterService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				90ADCFF2242404A400985668 /* AppDelegate.swift */,
 				90ADCFF4242404A400985668 /* SceneDelegate.swift */,
 				90ADCFF6242404A400985668 /* ContentView.swift */,
+				90E4111F2424F7E500A14EC2 /* CExample.mp4 */,
 				90ADCFF8242404A800985668 /* Assets.xcassets */,
 				90ADCFFD242404A800985668 /* LaunchScreen.storyboard */,
 				90ADD000242404A800985668 /* Info.plist */,
 				90ADCFFA242404A800985668 /* Preview Content */,
+				90ADD0222424065700985668 /* NaiveGifConverterService.swift */,
+				90E411212424FE4E00A14EC2 /* AssetBulkGifConverterService.swift */,
+				90ADD0242424072400985668 /* CMTime++.swift */,
+				90ADD0262424F5F100985668 /* GifConversionError.swift */,
 			);
 			path = GifUp;
 			sourceTree = "<group>";
@@ -240,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E411202424F7E500A14EC2 /* CExample.mp4 in Resources */,
 				90ADCFFF242404A800985668 /* LaunchScreen.storyboard in Resources */,
 				90ADCFFC242404A800985668 /* Preview Assets.xcassets in Resources */,
 				90ADCFF9242404A800985668 /* Assets.xcassets in Resources */,
@@ -268,8 +284,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				90ADCFF3242404A400985668 /* AppDelegate.swift in Sources */,
+				90ADD0252424072400985668 /* CMTime++.swift in Sources */,
 				90ADCFF5242404A400985668 /* SceneDelegate.swift in Sources */,
 				90ADCFF7242404A400985668 /* ContentView.swift in Sources */,
+				90ADD0232424065700985668 /* NaiveGifConverterService.swift in Sources */,
+				90E411222424FE4E00A14EC2 /* AssetBulkGifConverterService.swift in Sources */,
+				90ADD0272424F5F100985668 /* GifConversionError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
