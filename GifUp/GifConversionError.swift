@@ -13,4 +13,5 @@ enum GifConversionError : Error {
     case avAssetTrackTypingError
     case failedCreateDestinationAtURL(URL)
     case failedFinalizeGIF
+    case failedCreateAssetReader
 }

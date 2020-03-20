@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		909BFB40242531D90044E933 /* AssetReaderGifConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909BFB3F242531D90044E933 /* AssetReaderGifConverterService.swift */; };
 		90ADCFF3242404A400985668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADCFF2242404A400985668 /* AppDelegate.swift */; };
 		90ADCFF5242404A400985668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADCFF4242404A400985668 /* SceneDelegate.swift */; };
 		90ADCFF7242404A400985668 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90ADCFF6242404A400985668 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		909BFB3F242531D90044E933 /* AssetReaderGifConverterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetReaderGifConverterService.swift; sourceTree = "<group>"; };
 		90ADCFEF242404A400985668 /* GifUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90ADCFF2242404A400985668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90ADCFF4242404A400985668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				90ADD000242404A800985668 /* Info.plist */,
 				90ADCFFA242404A800985668 /* Preview Content */,
 				90ADD0222424065700985668 /* NaiveGifConverterService.swift */,
+				909BFB3F242531D90044E933 /* AssetReaderGifConverterService.swift */,
 				90E411212424FE4E00A14EC2 /* AssetBulkGifConverterService.swift */,
 				90ADD0242424072400985668 /* CMTime++.swift */,
 				90ADD0262424F5F100985668 /* GifConversionError.swift */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90ADCFF3242404A400985668 /* AppDelegate.swift in Sources */,
+				909BFB40242531D90044E933 /* AssetReaderGifConverterService.swift in Sources */,
 				90ADD0252424072400985668 /* CMTime++.swift in Sources */,
 				90ADCFF5242404A400985668 /* SceneDelegate.swift in Sources */,
 				90ADCFF7242404A400985668 /* ContentView.swift in Sources */,

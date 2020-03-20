@@ -53,6 +53,22 @@ struct ContentView: View {
                     Text("Asynchronous Frame Accumulation")
                 }
                 
+                Button(action: {
+                    print("Beginning attempt.")
+                    do {
+                        try AssetReaderGifConverterService.buildGifFromAsset(at: self.sampleGifPath) { (_) in
+                            print("done naively")
+                            self.randomColorChange = Color(hue: Double.random(in: 0...1), saturation: 0.5, brightness: 0.5)
+                        }
+                    }
+                    catch let err {
+                        print(err)
+                    }
+
+                }){
+                    Text("Insane Approach (Frame Buffer)")
+                }
+                
                 
             }.padding()
             Spacer()
